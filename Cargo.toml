@@ -1,0 +1,12 @@
+[package]
+name = "rust2dart"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = "1.0.55"
+itertools = "0.10.3"
+quote = "1.0.15"
+syn = { version = "1.0.86", features = ["full"] }
